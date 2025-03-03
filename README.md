@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-
-# Internships Web Scraper
+# Internify
 
 A powerful and customizable web scraping tool designed to fetch job and internship postings from platforms like LinkedIn and Internshala. The scraped data is exported to an Excel file for easy access, and the tool features a modern frontend interface for setting filters and initiating the scraping process.
 
