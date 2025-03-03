@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Internships Web Scraper
 
@@ -138,3 +139,6 @@ This project is licensed under [MIT License](https://choosealicense.com/licenses
     - [Github](https://www.github.com/achno2k)
 
 Made with ❤ by Aman Singh
+=======
+# Internify
+>>>>>>> 4a82f0996de5c929f038d73f2a0229c6dc992aa5
