@@ -20,7 +20,6 @@ const App = () => {
               <Route path="*" element={<ErrorPage />} />
             </Routes>
           </main>
-          <Footer />
         </div>
       </ErrorBoundary>
     </BrowserRouter>

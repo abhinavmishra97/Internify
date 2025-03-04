@@ -26,5 +26,3 @@ class ReturnedJSON(ReturnedJobs):
 
     class Config():
         from_attributes = True
-
-

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Preview from "./Preview";
 export const PreviewPage = ({ jobs, preview, success, handleDownload }) => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen mb-16 p-6">
       {jobs.length > 0 && <Preview jobs={jobs} />}
 
       {preview && (

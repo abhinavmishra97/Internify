@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaSearch, FaBriefcase, FaDownload } from 'react-icons/fa';
 import StatsSection from './StatsSection';
+import Footer from './Footer';
 
 const HomePage = () => {
   const features = [
@@ -26,16 +27,16 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="container mx-auto px-4 py-28 text-center"
       >
         <h1 className="text-5xl pt-10 font-bold text-gray-800 mb-6">
-          Find Your Perfect Internship
+          Internify
         </h1>
         <p className="text-xl text-gray-600 mb-8">
-          Powerful scraping tool to discover internships across multiple platforms
+          Smart search for smarter careers
         </p>
         <Link to="/filters">
           <motion.button
@@ -50,7 +51,7 @@ const HomePage = () => {
       </motion.div>
 
       {/* Features Section */}
-      <div className="bg-surface py-16">
+      <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
@@ -70,7 +71,8 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <StatsSection />
+      {/* <StatsSection /> */}
+      <Footer />
     </div>
   );
 };
