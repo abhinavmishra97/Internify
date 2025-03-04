@@ -116,27 +116,6 @@ A powerful and customizable web scraping tool designed to fetch job and internsh
 - Introduce AI-based filtering for smarter recommendations.
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
 
-- Fork the repository.
-- Create a new branch (feature/new-feature).
-- Commit your changes and push.
-- Submit a pull request.
-
-
-## License
-
-This project is licensed under [MIT License](https://choosealicense.com/licenses/mit/).
-
-
-## Contact
-- Author: Aman Singh
-- Email: amansinghh525@gmail.com
-- Socials:
-    - [LinkedIn](https://www.linkedin.com/in/amansingh0612/)
-    - [Github](https://www.github.com/achno2k)
-
-Made with ❤ by Aman Singh
-=======
 # Internify
 >>>>>>> 4a82f0996de5c929f038d73f2a0229c6dc992aa5
